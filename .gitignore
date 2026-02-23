@@ -1,4 +1,5 @@
 # IntelliJ / JetBrains
 .idea/
 *.iml
-
+.vscode/
+.lib/
