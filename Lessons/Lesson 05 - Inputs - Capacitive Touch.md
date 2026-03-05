@@ -64,7 +64,7 @@ cp.touch_A6
 cp.touch_TX
 ```
 
-## Example - Putting It All Together
+## Example
 
 This example continuously checks all touch pads and prints which ones are currently being touched.
 

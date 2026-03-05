@@ -50,7 +50,7 @@ cp.button_b
 
 ---
 
-## Example - Putting It All Together
+## Example
 
 This example continuously checks Button A and prints its state to the serial console.
 

@@ -52,7 +52,7 @@ while True:
 
 ---
 
-## Example - Putting it All Together
+## Example
 
 This example continuously checks if Button A is pressed and turns the first LED on while the button is held down.
 

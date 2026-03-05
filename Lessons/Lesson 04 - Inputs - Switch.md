@@ -20,7 +20,7 @@ The switch will be `True` when it is in the left position (next to the music not
 cp.switch
 ```
 
-## Example - Putting it All Together
+## Example
 
 This example continuously checks the slide switch and turns the onboard red LED on when the switch is left, and off when the switch is right.
 
