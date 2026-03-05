@@ -52,7 +52,7 @@ This means CircuitPython is installed correctly.
    [https://www.msys2.org/](https://www.msys2.org/)
 2. Download the installer
 3. Run the installer
-4. **DO NOT CHANGE THE INSTALL LOCATION**
+4. **DO NOT CHANGE THE INSTALLATION LOCATION**
    Leave it as the default (usually `C:\msys64`)
 5. Finish the installation
 
@@ -217,14 +217,11 @@ This enables code completion and error checking.
 
 ### Step 1: Find the COM Port
 
-Run this command in **PyCharm’s Terminal** or **Command Prompt**:
+Included in this repository are 2 python files. Both start with `COM` and then have an operating system listed. To find your COM port connection, run the script associated with your operating system, and COM ports will display in the terminal.
 
-```
-Get-CimInstance Win32_PnPEntity -Filter "ClassGuid = '{4d36e978-e325-11ce-bfc1-08002be10318}'" | Select-Object Name
-```
+Look for an entry that mentions a **USB** connection and note the **COM number**.
 
-Look for an entry that mentions a **USB** connection and note the **COM number**
-(example: `COM20`)
+*Example: `COM20`*
 
 ---
 
@@ -246,7 +243,8 @@ If successful:
 ---
 
 ## Part 6: Check To Make Sure Everything Works
-Copy and paste the following code into the `code.py` file in your PyCharm project.
+Inside your `code.py` file there is already some code for you!
+
 ```python
 from adafruit_circuitplayground import cp
 while True:
@@ -262,11 +260,12 @@ This code will do the following:
 * When the B button is pressed, the terminal prints "button b"
 * When the A button is pressed, the terminal prints "button a"
 
-Save the file.
+**Click and drag the `code.py` file to the Circuit Playground Express in the file explorer (or copy the `code.py` file and paste the file into the Circuit Playground Express). Doing so will *automatically* upload that code to your device.**
 
 Try pressing the A and B buttons to see if everything is properly configured.
 
-One last program to upload to ensure everything works is this program that allows you to get all of the pins and sensors that are built into the Circuit Playground Express. When you paste and save this code, it should output a list of pins that the board has access to:
+One last program to upload to ensure everything works is this program that allows you to get all the pins and sensors that are built into the Circuit Playground Express. Replace the contents of your `code.py` file with the following code and save it. Copy the file to the Circuit Playground Express, and it should output a list of pins that the board has access to:
+
 ```python
 import microcontroller
 import board 

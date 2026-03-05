@@ -1,7 +1,4 @@
-# IPO
-
-## How Are Algorithms Used In The Context of This Project?
-*Replace this text with your answer.*
+# Student Planning
 
 ## IPO Charts
 Create your IPO Charts below. Copy and paste the template as many times as you need.
@@ -10,3 +7,11 @@ Create your IPO Charts below. Copy and paste the template as many times as you n
 |Input|Process|Output|
 |---|---|---|
 |||
+
+## Pseudocode
+
+```text
+START
+
+END
+```
