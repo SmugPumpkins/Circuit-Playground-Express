@@ -230,7 +230,7 @@ To master function definitions, there are 3 key components your function definit
 
 Including these 3 components leads to clearer, cleaner, more maintainable code.
 
-## Parameter Type Hints
+### Parameter Type Hints
 Parameter type hints make it easier to remember what kind of data a function expects.
 
 ```python
@@ -259,7 +259,7 @@ def add_ten(number) -> float:
     return number + 10
 ```
 
-## Return Type Hints
+### Return Type Hints
 Return type hints make it easier to remember what kind of data a function will give you.
 ```python
 # GOOD:
@@ -297,7 +297,7 @@ def add_ten(number: float):
     return number + 10
 ```
 
-## Docstrings
+### Docstrings
 Docstrings allow you to remember what a function does, as well as what the inputs and outputs each do.
 ```python
 # GOOD:
@@ -319,5 +319,110 @@ def add_ten(number : float) -> float:
     return number + 10
 ```
 
+## Ordering Code
+
+### Without `if __name__ == "__main__":`
+Code should be ordered with the following pattern:
+
+```text
+Document Level Docstring
+Module Imports
+Partial Module Imports
+Constant Initialization
+Variable Initialization
+Function Definitions
+Main Code
+```
+
+For example:
+```python
+"""
+Example of Document Structure
+Author: Nathan Forsyth
+"""
+
+import math
+
+from sys import exit
+
+EXPONENT = 2
+ANGLE_DEGREES = 180
+
+operation_count = 0
+
+def get_radians(angle: float) -> float:
+    global operation_count
+    operation_count += 1
+    return math.radians(angle)
+
+def get_square(base: float) -> float:
+    global operation_count
+    operation_count += 1
+    return math.pow(base, EXPONENT)
 
 
+print(f"3^2: {get_square(3)}")
+print(f"{ANGLE_DEGREES} in radians: {get_radians(ANGLE_DEGREES)}")
+print(f"90 in radians: {get_radians(90)}")
+print(f"Total operations: {operation_count}")
+exit()
+```
+
+### With `if __name__ == "__main__":`
+Code should be ordered with the following pattern:
+
+```text
+Document Level Docstring
+Module Imports
+Partial Module Imports
+Constant Initialization
+Global Variable Initialization
+Function Definitions
+Main Function Definition
+    LOCAL Variables Initialized in Main Function
+if __name__ == "__main__":
+```
+
+For example:
+
+```python
+"""
+Example of Document Structure
+Author: Nathan Forsyth
+"""
+
+import math
+
+from sys import exit
+
+EXPONENT = 2
+ANGLE_DEGREES = 180
+
+operation_count = 0
+
+def get_radians(angle: float) -> float:
+    global operation_count
+    operation_count += 1
+    return math.radians(angle)
+
+def get_square(base: float) -> float:
+    global operation_count
+    operation_count += 1
+    return math.pow(base, EXPONENT)
+
+def main():
+    print_count = 0
+    print(f"3^2: {get_square(3)}")
+    print_count += 1
+    print(f"{ANGLE_DEGREES} in radians: {get_radians(ANGLE_DEGREES)}")
+    print_count += 1
+    print(f"90 in radians: {get_radians(90)}")
+    print_count += 1
+    print(f"Total operations: {operation_count}")
+    print_count += 1
+    print(f"Total prints: {print_count + 1}")
+    exit()
+
+if __name__ == "__main__":
+    main()
+```
