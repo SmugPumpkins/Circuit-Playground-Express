@@ -28,18 +28,18 @@
 
 Challenges can be completed for skill development points. This unit is out of a total of 15 points.
 
-| Challenge                                    |Level Completed|Checked|
-|----------------------------------------------|---|---|
-| Challenge 01 - Switch Colors                 |||
-| Challenge 02 - Light Pitch                   |||
-| Challenge 03 - Shake Light                   |||
-| Challenge 04 - Spinning Neopixel             |||
-| Challenge 05 - Switch Spinning Neopixel      |||
-| Challenge 06 - Button Controlled Spin Speed  |||
-| Challenge 07 - Button Controlled Color Cycle |||
-| Challenge 08 - Capacitive Touch Instrument   |||
-| Challenge 09 - Microphone Neopixels          |||
-| Challenge 10 - IR Communication              |||
+|                   Challenge                    | Level Completed  | Checked  |
+|:----------------------------------------------:|:----------------:|:--------:|
+|          Challenge 01 - Switch Colors          |                  |          |
+|           Challenge 02 - Light Pitch           |                  |          |
+|           Challenge 03 - Shake Light           |                  |          |
+|        Challenge 04 - Spinning Neopixel        |                  |          |
+|    Challenge 05 - Switch Spinning Neopixel     |                  |          |
+|  Challenge 06 - Button Controlled Spin Speed   |                  |          |
+|  Challenge 07 - Button Controlled Color Cycle  |                  |          |
+|   Challenge 08 - Capacitive Touch Instrument   |                  |          |
+|      Challenge 09 - Microphone Neopixels       |                  |          |
+|        Challenge 10 - IR Communication         |                  |          |
 
 ### Project
 
