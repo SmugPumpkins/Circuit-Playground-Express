@@ -18,7 +18,7 @@ Follow **every step in order**. Do not skip steps. If something does not work, s
 ### Step 2: Put the Board Into Bootloader Mode
 
 1. Plug the **Circuit Playground Express** into your computer using a USB cable
-2. Press the **RESET** button on the board **two times quickly**
+2. Press the **RESET** button on the board **two times quickly**. *(You can also sometimes just hold it down)*.
 3. A new removable drive will appear named **CPLAYBOOT**
 
 If the drive does not appear:
@@ -123,7 +123,7 @@ If you did **not** install msys2 in the default location, click **Browse** inste
 
 ### Step 3: Verify tio Works in Command Prompt
 
-1. Open **Command Prompt**
+1. Open **PowerShell**
 2. Type:
 
 ```
@@ -136,55 +136,11 @@ If a version number appears, PATH is set correctly.
 
 ## Part 4: PyCharm Configuration
 
-### Step 1: Open PyCharm Settings
-
-1. Open **PyCharm**
-2. Go to:
-   **File → Settings**
-
----
-
-### Step 2: Turn Off Auto-Save
-
-1. Navigate to:
-   **Appearance & Behavior → System Settings → Autosave**
-2. Turn **OFF**:
-
-   * “Save files if the IDE is idle for … seconds”
-   * “Save files when switching to a different application or a built-in terminal”
-
----
-
-### Step 3: Turn On Unsaved File Indicator
-
-1. Go to:
-   **Editor → General → Editor Tabs → Appearance**
-2. Turn **ON**:
-
-   * “Mark modified”
-
----
-
-### Step 4: Set the Project Root to the Board
-
-1. Make sure the **Circuit Playground Express is plugged in**
-2. Make sure the **CIRCUITPY** drive is visible
-3. In PyCharm:
-
-   * **Settings → Project Structure**
-   * Click **+ Add Content Root**
-   * Select the **CIRCUITPY** drive
-4. Apply and save
-
-Your Python files will now save **directly to the board**.
-
----
-
-### Step 5: Install CircuitPython Stubs and Other Required Libraries
+### Step 1: Install CircuitPython Stubs and Other Required Libraries
 
 1. In PyCharm:
 
-   * **Settings → Project → Python Interpreter**
+   * **Settings → Python → Python Interpreter**
 2. Click **Install**
 3. Search for:
 
@@ -223,6 +179,12 @@ Look for an entry that mentions a **USB** connection and note the **COM number**
 
 *Example: `COM20`*
 
+If the scripts result in errors, there is also a file called `Finding COM Ports.md` that has an alternate way to check your COM Ports. All you have to do is paste the following into your PyCharm terminal and press `Enter`:
+
+```
+Get-CimInstance Win32_PnPEntity | Where-Object { $_.Name -like '*USB* (COM*' } | Select-Object -ExpandProperty Name
+```
+
 ---
 
 ### Step 2: Connect Using tio
@@ -239,6 +201,8 @@ If successful:
 
 * The terminal connects to the board
 * `print()` output from `code.py` appears here
+
+If there is an error saying that `tio` is not a valid command, close and reopen PyCharm. If it worked in your PowerShell terminal, then PyCharm just needs to be refreshed.
 
 ---
 
