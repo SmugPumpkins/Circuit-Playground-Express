@@ -1,5 +1,5 @@
 # Challenge 02 - Light Pitch
-This challenge explores using the built in photoresistor (light detection) and built in passive buzzer.
+This challenge explores using the built-in photoresistor (light detection) and built in passive buzzer.
 ## Mild 🌶️
 The photoresistor returns an `int` relative to the amount of light it detects. You will need to create a variable to set a `threshold` value.
 

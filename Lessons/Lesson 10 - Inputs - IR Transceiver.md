@@ -107,7 +107,7 @@ encoder.transmit(pulseout, [255, 2, 255, 0])
 Infrared communication becomes less reliable as messages grow longer because the transmission takes more time and increases the chance of interference or missed pulses.
 
 | # of bytes  | Approximate Time | Likely to Succeed             |
-| ----------- | ---------------- | ----------------------------- |
+|-------------|------------------|-------------------------------|
 | 1-4 bytes   | ~60 ms           | Extremely likely to succeed   |
 | 5-16 bytes  | ~240 ms          | Very likely to succeed        |
 | 17-32 bytes | ~0.5 seconds     | Unlikely to succeed           |

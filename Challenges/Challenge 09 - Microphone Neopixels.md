@@ -23,7 +23,7 @@ Using the example volume detector, create a volume detector that lights up more 
 * Determine a minimum volume threshold.
 * Determine a maximum volume threshold.
 * When the volume is at or below the minimum threshold, have 1 neopixel lit up.
-* When the volume is at or above the maximum threshold, have all 10 neopixels lit up.
+* When the volume is at or above the maximum threshold, have all 10 Neopixels lit up.
 * For any volume between the minimum and maximum threshold, the number of pixels lit up should change based on the current volume level.
 
 *(It's a volume detector, don't overthink it too much!)*

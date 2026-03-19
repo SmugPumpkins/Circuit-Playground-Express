@@ -1,4 +1,4 @@
-# Lesson 09 - Inputes - Microphone
+# Lesson 09 - Inputs - Microphone
 
 ## Overview
 

@@ -1,5 +1,5 @@
 # Challenge 05 - Switch Spinning Neopixel
-This challenge explores using the built in switch and built in Neopixels.
+This challenge explores using the built-in switch and built in Neopixels.
 ## Mild 🌶️
 The switch has a value of either `True` or `False`.
 

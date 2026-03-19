@@ -141,7 +141,7 @@ while True:
 
 ## Example - Light Neopixels With Capacitive Touch
 
-This program lights NeoPixels depending on which capacitive touch pad is touched.
+This program lights NeoPixels depending on which capacitive touchpad is touched.
 
 ```python
 # Import the Circuit Playground Express library

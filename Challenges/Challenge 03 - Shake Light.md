@@ -1,5 +1,5 @@
 # Challenge 03 - Shake Light
-This challenge explores using the built in accelerometer and built in Neopixels.
+This challenge explores using the built-in accelerometer and built in Neopixels.
 
 ## Mild 🌶️
 When shaken, the shake detection is set to `True`, and otherwise is set to `False`.

@@ -93,7 +93,7 @@ C = 20           # Uses a single character.
 ```
 
 ### Naming Classes *(Advanced)*
-Eventually, you will learn about implementing classes when using object oriented programming (OOP). Classes have different naming conventions and should follow these recommendations:
+Eventually, you will learn about implementing classes when using object-oriented programming (OOP). Classes have different naming conventions and should follow these recommendations:
 
 * `CapWords` (words put together with the first letter of each word capitalized)
 * descriptive nouns or noun phrases

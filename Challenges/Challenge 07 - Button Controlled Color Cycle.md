@@ -5,23 +5,23 @@ Each button has 2 states, `True` or `False`.
 
 When Button A is `True`:
 
-* Change all of the Neopixels to your favorite color. 
+* Change all the Neopixels to your favorite color. 
 * Increase the brightness of the Neopixels.
 
 When Button B is `True`:
 
-* Change all of the Neopixels to your least favorite color. 
+* Change all the Neopixels to your least favorite color. 
 * Decrease the brightness of the Neopixels.
 ## Medium 🌶️🌶️
 Each button has 2 states, `True` or `False`. Have a number of pre-programmed color variables.
 
 When Button A is `True`:
 
-* Change all of the Neopixels to the next color in your list of colors.
+* Change all the Neopixels to the next color in your list of colors.
 
 When Button B is `True`:
 
-* Change all of the Neopixels to the previous color in your list of colors.
+* Change all the Neopixels to the previous color in your list of colors.
 
 ## Spicy 🌶️🌶️🌶️
 Each button has 2 states, `True` or `False`. Have a number of pre-programmed color variables.

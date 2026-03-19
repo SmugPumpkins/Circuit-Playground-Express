@@ -8,7 +8,7 @@ Buttons allow users to provide input to the Circuit Playground Express. The boar
 
 ## Reset Button
 
-The reset button is used to restart the Circuit Playground Express or prepare it for bootloading new firmware. It cannot be programmed or read in code.
+The reset button is used to restart the Circuit Playground Express or prepare it for boot-loading new firmware. It cannot be programmed or read in code.
 
 ![Reset Buttton](https://cdn-learn.adafruit.com/assets/assets/000/076/510/medium640/educators_circuitpy_reset_button.jpg?1559761014)
 

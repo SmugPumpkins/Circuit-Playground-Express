@@ -11,7 +11,7 @@ The speaker generates sound by producing tones at specific frequencies. Musical 
 <details><summary>List of Piano Notes and Frequencies</summary>
 
 | Note | Frequency (Hz) |
-| ---- | -------------- |
+|------|----------------|
 | B0   | 31             |
 | C1   | 33             |
 | CS1  | 35             |
