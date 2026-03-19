@@ -2,7 +2,7 @@
 
 ## How To Read Python Error Messages
 
-When Python finds a problem in your program, it **stops immediately** and prints an error message in the terminal. This message is not there to punish you — it is Python explaining **why it could not continue**.
+When Python finds a problem in your program, it **stops immediately** and prints an error message in the terminal. This is Python explaining **why it could not continue**.
 
 A Python error message almost always contains the same key parts:
 
@@ -13,7 +13,7 @@ This is the name of the error, such as `SyntaxError`, `NameError`, or `TypeError
 Below the error type, Python often prints a traceback. A traceback is a list of lines showing **how Python got to the error**. In beginner programs, this usually only shows one file and a few lines. The **last line of the traceback** is usually the most important, because it points to where Python finally got stuck.
 
 **The line number and code line**
-Python will show the line number and often reprint the exact line of code that caused the error. This is Python saying, “I had a problem right here.” For beginner code, the mistake is almost always **on that line or the line right above it**.
+Python will show the line number and often reprint the exact line of code that caused the error. This is Python saying, “I had a problem right here.”
 
 **The pointer or highlight**
 Sometimes Python adds a small arrow or caret (`^`) under part of the line. This is Python pointing to the exact character or area where it noticed something wrong. This does not always mean that exact character is the problem, but it is very close.
@@ -96,8 +96,8 @@ Python does not know the name you are using. This usually means a spelling mista
 
 1. Look at the variable or function causing the name error.
 2. Ensure that that variable or name is defined somewhere else in the code.
-    * For __functions__ this will be the line where the function is defined with the `def` keyword.
-    * For __variables__ this will be the line where the variable is initialized with a starting value.
+    * For **functions** this will be the line where the function is defined with the `def` keyword.
+    * For **variables** this will be the line where the variable is initialized with a starting value.
 3. If the function or variable does not exist anywhere, add it somewhere above the line the error occurred.
 4. Run the program again.
 
@@ -299,9 +299,3 @@ A function called itself too many times.
 2. Find the condition that should stop it.
 3. Make sure the condition can actually happen.
 4. Run the program again.
-
----
-
-**Debugging rule to remember:**
-If Python points at a line, **start there**.
-Most beginner bugs are caused by **one character, one space, or one missing line**.
