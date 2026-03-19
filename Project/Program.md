@@ -52,7 +52,7 @@ NO EXTERNAL RESOURCES USED IN THE MAKING OF THIS PROJECT
 ### AI Use Document
 
 * **File Type:** `.md`
-* **File Name:** `ai_use.md`.
+* **File Name:** `ai use.md`.
 * **File Location:** `Project Documents` folder.
 * **Push your project folder to GitHub Classroom**
 
