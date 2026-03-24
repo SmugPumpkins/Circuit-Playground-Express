@@ -7,6 +7,12 @@ When naming a variable, it should follow these recommendations:
 * `snake_case` (all lowercase with words separated by underscores `_`)
 * descriptive nouns or noun phrases
 * full words, avoid abbreviations or single character names
+* Single characters are only acceptable when they are commonly recognized as a regularly used value:
+  * `x`, `y`, `z` for coordinates.
+  * `i`, `j`, `k` for iteration control structures.
+  * `n` for a number of terms.
+  * `a`, `b`, `c` for mathematical numbers used in calculations.
+  * `w`, `h` for width and height.
 
 ```python
 # GOOD:

@@ -45,7 +45,30 @@ Challenges can be completed for skill development points. This unit is out of a 
 
 #### Planning
 
+* [ ] Read the assignment outline `Planning.md`.
+* [ ] Review the rubric for `Planning.md`.
+* [ ] Write a short overview of your project idea in `student planning.md`.
+* [ ] Identify at least 3 inputs you plan to use for your project.
+* [ ] Create at least 3 IPO charts for your project in `student planning.md`. Each IPO chart should have its own input.
+* [ ] Write your program (based off of the IPO charts you created) as pseudocode in `student planning.md`.
+* [ ] Push your project to GitHub classroom to update your planning submission.
+
 #### Program
 
+* [ ] Read the assignment outline `Program.md`.
+* [ ] Review the rubric for `Program.md`.
+* [ ] Translate your pseudocode to Python for the Circuit Playground Express.
+* [ ] Add appropriate documentation to your code (docstrings and comments). Do not generate this with AI.
+* [ ] Upload your code to your Circuit Playground Express.
+* [ ] Complete the `ai use.md` document.
+* [ ] Complete the `resources.md` document.
+* [ ] Push your project to GitHub classroom to update your program submission.
+
 #### Present
+
+* [ ] Read the assignment outline `Present.md`.
+* [ ] Review the rubric for `Present.md`.
+* [ ] Record a video (no longer than 1 minute) demonstrating your project, including how a user interacts with it.
+* [ ] Submit the video to Schoology.
+* [ ] Present your project to the class focusing on the IPO modules in your program and the structured programming principles of `sequence`, `selection`, and `iteration`.
 
