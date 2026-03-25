@@ -28,6 +28,8 @@
 
 Challenges can be completed for skill development points. This unit is out of a total of 15 points.
 
+*Challenges must be completed and checked before the unit end date.*
+
 | Challenge                                     | Level Completed  | Checked  |
 |:----------------------------------------------|:----------------:|:--------:|
 | Challenge 01 - Switch Colors                  |                  |          |
